@@ -1,0 +1,41 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python test / coverage / type-checker caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+
+# Virtual environments and local interpreter files
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# IDE / editor service files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS service files
+.DS_Store
+Thumbs.db
+desktop.ini
